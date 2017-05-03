@@ -1,6 +1,6 @@
 //
-//  iOS_TCP_Server_ClientTests.m
-//  iOS-TCP-Server-ClientTests
+//  TCP_Server_ClientTests.m
+//  TCP-Server-ClientTests
 //
 //  Created by Đặng Văn Trường on 03/05/2017.
 //  Copyright © 2017 Đặng Văn Trường. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface iOS_TCP_Server_ClientTests : XCTestCase
+@interface TCP_Server_ClientTests : XCTestCase
 
 @end
 
-@implementation iOS_TCP_Server_ClientTests
+@implementation TCP_Server_ClientTests
 
 - (void)setUp {
     [super setUp];

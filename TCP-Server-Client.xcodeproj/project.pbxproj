@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F35BFBDD1EB9FC8400E73A81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBDC1EB9FC8400E73A81 /* AppDelegate.m */; };
+		F35BFBE01EB9FC8400E73A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBDF1EB9FC8400E73A81 /* main.m */; };
+		F35BFBE31EB9FC8400E73A81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBE21EB9FC8400E73A81 /* ViewController.m */; };
+		F35BFBE61EB9FC8400E73A81 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBE51EB9FC8400E73A81 /* Document.m */; };
+		F35BFBE81EB9FC8400E73A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35BFBE71EB9FC8400E73A81 /* Assets.xcassets */; };
+		F35BFBEB1EB9FC8400E73A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35BFBE91EB9FC8400E73A81 /* Main.storyboard */; };
+		F35BFBF61EB9FC8400E73A81 /* TCP_Server_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBF51EB9FC8400E73A81 /* TCP_Server_ClientTests.m */; };
+		F35BFC011EB9FC8400E73A81 /* TCP_Server_ClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC001EB9FC8400E73A81 /* TCP_Server_ClientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F35BFBF21EB9FC8400E73A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35BFBD01EB9FC8400E73A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35BFBD71EB9FC8400E73A81;
+			remoteInfo = "TCP-Server-Client";
+		};
+		F35BFBFD1EB9FC8400E73A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F35BFBD01EB9FC8400E73A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F35BFBD71EB9FC8400E73A81;
+			remoteInfo = "TCP-Server-Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F35BFBD81EB9FC8400E73A81 /* TCP-Server-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP-Server-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BFBDB1EB9FC8400E73A81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F35BFBDC1EB9FC8400E73A81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F35BFBDF1EB9FC8400E73A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F35BFBE11EB9FC8400E73A81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F35BFBE21EB9FC8400E73A81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F35BFBE41EB9FC8400E73A81 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		F35BFBE51EB9FC8400E73A81 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		F35BFBE71EB9FC8400E73A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F35BFBEA1EB9FC8400E73A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F35BFBEC1EB9FC8400E73A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35BFBF11EB9FC8400E73A81 /* TCP-Server-ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP-Server-ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BFBF51EB9FC8400E73A81 /* TCP_Server_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCP_Server_ClientTests.m; sourceTree = "<group>"; };
+		F35BFBF71EB9FC8400E73A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35BFBFC1EB9FC8400E73A81 /* TCP-Server-ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP-Server-ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35BFC001EB9FC8400E73A81 /* TCP_Server_ClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCP_Server_ClientUITests.m; sourceTree = "<group>"; };
+		F35BFC021EB9FC8400E73A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F35BFBD51EB9FC8400E73A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBEE1EB9FC8400E73A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBF91EB9FC8400E73A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F35BFBCF1EB9FC8400E73A81 = {
+			isa = PBXGroup;
+			children = (
+				F35BFBDA1EB9FC8400E73A81 /* TCP-Server-Client */,
+				F35BFBF41EB9FC8400E73A81 /* TCP-Server-ClientTests */,
+				F35BFBFF1EB9FC8400E73A81 /* TCP-Server-ClientUITests */,
+				F35BFBD91EB9FC8400E73A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F35BFBD91EB9FC8400E73A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFBD81EB9FC8400E73A81 /* TCP-Server-Client.app */,
+				F35BFBF11EB9FC8400E73A81 /* TCP-Server-ClientTests.xctest */,
+				F35BFBFC1EB9FC8400E73A81 /* TCP-Server-ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F35BFBDA1EB9FC8400E73A81 /* TCP-Server-Client */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFBDB1EB9FC8400E73A81 /* AppDelegate.h */,
+				F35BFBDC1EB9FC8400E73A81 /* AppDelegate.m */,
+				F35BFBE11EB9FC8400E73A81 /* ViewController.h */,
+				F35BFBE21EB9FC8400E73A81 /* ViewController.m */,
+				F35BFBE41EB9FC8400E73A81 /* Document.h */,
+				F35BFBE51EB9FC8400E73A81 /* Document.m */,
+				F35BFBE71EB9FC8400E73A81 /* Assets.xcassets */,
+				F35BFBE91EB9FC8400E73A81 /* Main.storyboard */,
+				F35BFBEC1EB9FC8400E73A81 /* Info.plist */,
+				F35BFBDE1EB9FC8400E73A81 /* Supporting Files */,
+			);
+			path = "TCP-Server-Client";
+			sourceTree = "<group>";
+		};
+		F35BFBDE1EB9FC8400E73A81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFBDF1EB9FC8400E73A81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F35BFBF41EB9FC8400E73A81 /* TCP-Server-ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFBF51EB9FC8400E73A81 /* TCP_Server_ClientTests.m */,
+				F35BFBF71EB9FC8400E73A81 /* Info.plist */,
+			);
+			path = "TCP-Server-ClientTests";
+			sourceTree = "<group>";
+		};
+		F35BFBFF1EB9FC8400E73A81 /* TCP-Server-ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFC001EB9FC8400E73A81 /* TCP_Server_ClientUITests.m */,
+				F35BFC021EB9FC8400E73A81 /* Info.plist */,
+			);
+			path = "TCP-Server-ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F35BFBD71EB9FC8400E73A81 /* TCP-Server-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35BFC051EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-Client" */;
+			buildPhases = (
+				F35BFBD41EB9FC8400E73A81 /* Sources */,
+				F35BFBD51EB9FC8400E73A81 /* Frameworks */,
+				F35BFBD61EB9FC8400E73A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCP-Server-Client";
+			productName = "TCP-Server-Client";
+			productReference = F35BFBD81EB9FC8400E73A81 /* TCP-Server-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F35BFBF01EB9FC8400E73A81 /* TCP-Server-ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35BFC081EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientTests" */;
+			buildPhases = (
+				F35BFBED1EB9FC8400E73A81 /* Sources */,
+				F35BFBEE1EB9FC8400E73A81 /* Frameworks */,
+				F35BFBEF1EB9FC8400E73A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35BFBF31EB9FC8400E73A81 /* PBXTargetDependency */,
+			);
+			name = "TCP-Server-ClientTests";
+			productName = "TCP-Server-ClientTests";
+			productReference = F35BFBF11EB9FC8400E73A81 /* TCP-Server-ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F35BFBFB1EB9FC8400E73A81 /* TCP-Server-ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F35BFC0B1EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientUITests" */;
+			buildPhases = (
+				F35BFBF81EB9FC8400E73A81 /* Sources */,
+				F35BFBF91EB9FC8400E73A81 /* Frameworks */,
+				F35BFBFA1EB9FC8400E73A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F35BFBFE1EB9FC8400E73A81 /* PBXTargetDependency */,
+			);
+			name = "TCP-Server-ClientUITests";
+			productName = "TCP-Server-ClientUITests";
+			productReference = F35BFBFC1EB9FC8400E73A81 /* TCP-Server-ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F35BFBD01EB9FC8400E73A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Đặng Văn Trường";
+				TargetAttributes = {
+					F35BFBD71EB9FC8400E73A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					F35BFBF01EB9FC8400E73A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F35BFBD71EB9FC8400E73A81;
+					};
+					F35BFBFB1EB9FC8400E73A81 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F35BFBD71EB9FC8400E73A81;
+					};
+				};
+			};
+			buildConfigurationList = F35BFBD31EB9FC8400E73A81 /* Build configuration list for PBXProject "TCP-Server-Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F35BFBCF1EB9FC8400E73A81;
+			productRefGroup = F35BFBD91EB9FC8400E73A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F35BFBD71EB9FC8400E73A81 /* TCP-Server-Client */,
+				F35BFBF01EB9FC8400E73A81 /* TCP-Server-ClientTests */,
+				F35BFBFB1EB9FC8400E73A81 /* TCP-Server-ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F35BFBD61EB9FC8400E73A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BFBE81EB9FC8400E73A81 /* Assets.xcassets in Resources */,
+				F35BFBEB1EB9FC8400E73A81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBEF1EB9FC8400E73A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBFA1EB9FC8400E73A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F35BFBD41EB9FC8400E73A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BFBE61EB9FC8400E73A81 /* Document.m in Sources */,
+				F35BFBE31EB9FC8400E73A81 /* ViewController.m in Sources */,
+				F35BFBE01EB9FC8400E73A81 /* main.m in Sources */,
+				F35BFBDD1EB9FC8400E73A81 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBED1EB9FC8400E73A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BFBF61EB9FC8400E73A81 /* TCP_Server_ClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35BFBF81EB9FC8400E73A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F35BFC011EB9FC8400E73A81 /* TCP_Server_ClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F35BFBF31EB9FC8400E73A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35BFBD71EB9FC8400E73A81 /* TCP-Server-Client */;
+			targetProxy = F35BFBF21EB9FC8400E73A81 /* PBXContainerItemProxy */;
+		};
+		F35BFBFE1EB9FC8400E73A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F35BFBD71EB9FC8400E73A81 /* TCP-Server-Client */;
+			targetProxy = F35BFBFD1EB9FC8400E73A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F35BFBE91EB9FC8400E73A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F35BFBEA1EB9FC8400E73A81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F35BFC031EB9FC8400E73A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F35BFC041EB9FC8400E73A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F35BFC061EB9FC8400E73A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F35BFC071EB9FC8400E73A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F35BFC091EB9FC8400E73A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP-Server-Client.app/Contents/MacOS/TCP-Server-Client";
+			};
+			name = Debug;
+		};
+		F35BFC0A1EB9FC8400E73A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCP-Server-Client.app/Contents/MacOS/TCP-Server-Client";
+			};
+			name = Release;
+		};
+		F35BFC0C1EB9FC8400E73A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCP-Server-Client";
+			};
+			name = Debug;
+		};
+		F35BFC0D1EB9FC8400E73A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TCP-Server-ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.truongdv-inc.server-client.TCP-Server-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TCP-Server-Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F35BFBD31EB9FC8400E73A81 /* Build configuration list for PBXProject "TCP-Server-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BFC031EB9FC8400E73A81 /* Debug */,
+				F35BFC041EB9FC8400E73A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F35BFC051EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BFC061EB9FC8400E73A81 /* Debug */,
+				F35BFC071EB9FC8400E73A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35BFC081EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BFC091EB9FC8400E73A81 /* Debug */,
+				F35BFC0A1EB9FC8400E73A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F35BFC0B1EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F35BFC0C1EB9FC8400E73A81 /* Debug */,
+				F35BFC0D1EB9FC8400E73A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F35BFBD01EB9FC8400E73A81 /* Project object */;
+}
