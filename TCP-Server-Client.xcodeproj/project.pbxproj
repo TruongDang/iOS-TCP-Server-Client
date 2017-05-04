@@ -15,6 +15,16 @@
 		F35BFBEB1EB9FC8400E73A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35BFBE91EB9FC8400E73A81 /* Main.storyboard */; };
 		F35BFBF61EB9FC8400E73A81 /* TCP_Server_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFBF51EB9FC8400E73A81 /* TCP_Server_ClientTests.m */; };
 		F35BFC011EB9FC8400E73A81 /* TCP_Server_ClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC001EB9FC8400E73A81 /* TCP_Server_ClientUITests.m */; };
+		F35BFC4F1EB9FEB100E73A81 /* TDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC4E1EB9FEB100E73A81 /* TDHandler.m */; };
+		F35BFC501EB9FEB100E73A81 /* TDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC4E1EB9FEB100E73A81 /* TDHandler.m */; };
+		F35BFC511EB9FEB100E73A81 /* TDHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC4E1EB9FEB100E73A81 /* TDHandler.m */; };
+		F35BFC541EBA0AE400E73A81 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35BFC531EBA0AE400E73A81 /* AppKit.framework */; };
+		F35BFC571EBA0BA700E73A81 /* TDServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC561EBA0BA700E73A81 /* TDServerThread.m */; };
+		F35BFC581EBA0BA700E73A81 /* TDServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC561EBA0BA700E73A81 /* TDServerThread.m */; };
+		F35BFC591EBA0BA700E73A81 /* TDServerThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC561EBA0BA700E73A81 /* TDServerThread.m */; };
+		F35BFC5C1EBA0BE200E73A81 /* TDClientThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC5B1EBA0BE200E73A81 /* TDClientThread.m */; };
+		F35BFC5D1EBA0BE200E73A81 /* TDClientThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC5B1EBA0BE200E73A81 /* TDClientThread.m */; };
+		F35BFC5E1EBA0BE200E73A81 /* TDClientThread.m in Sources */ = {isa = PBXBuildFile; fileRef = F35BFC5B1EBA0BE200E73A81 /* TDClientThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,13 @@
 		F35BFBFC1EB9FC8400E73A81 /* TCP-Server-ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCP-Server-ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35BFC001EB9FC8400E73A81 /* TCP_Server_ClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCP_Server_ClientUITests.m; sourceTree = "<group>"; };
 		F35BFC021EB9FC8400E73A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35BFC4D1EB9FEB100E73A81 /* TDHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDHandler.h; sourceTree = "<group>"; };
+		F35BFC4E1EB9FEB100E73A81 /* TDHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDHandler.m; sourceTree = "<group>"; };
+		F35BFC531EBA0AE400E73A81 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F35BFC551EBA0BA700E73A81 /* TDServerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDServerThread.h; sourceTree = "<group>"; };
+		F35BFC561EBA0BA700E73A81 /* TDServerThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDServerThread.m; sourceTree = "<group>"; };
+		F35BFC5A1EBA0BE200E73A81 /* TDClientThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDClientThread.h; sourceTree = "<group>"; };
+		F35BFC5B1EBA0BE200E73A81 /* TDClientThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDClientThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35BFC541EBA0AE400E73A81 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 				F35BFBF41EB9FC8400E73A81 /* TCP-Server-ClientTests */,
 				F35BFBFF1EB9FC8400E73A81 /* TCP-Server-ClientUITests */,
 				F35BFBD91EB9FC8400E73A81 /* Products */,
+				F35BFC521EBA0AE400E73A81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,12 @@
 		F35BFBDA1EB9FC8400E73A81 /* TCP-Server-Client */ = {
 			isa = PBXGroup;
 			children = (
+				F35BFC551EBA0BA700E73A81 /* TDServerThread.h */,
+				F35BFC561EBA0BA700E73A81 /* TDServerThread.m */,
+				F35BFC5A1EBA0BE200E73A81 /* TDClientThread.h */,
+				F35BFC5B1EBA0BE200E73A81 /* TDClientThread.m */,
+				F35BFC4D1EB9FEB100E73A81 /* TDHandler.h */,
+				F35BFC4E1EB9FEB100E73A81 /* TDHandler.m */,
 				F35BFBDB1EB9FC8400E73A81 /* AppDelegate.h */,
 				F35BFBDC1EB9FC8400E73A81 /* AppDelegate.m */,
 				F35BFBE11EB9FC8400E73A81 /* ViewController.h */,
@@ -140,6 +165,14 @@
 				F35BFC021EB9FC8400E73A81 /* Info.plist */,
 			);
 			path = "TCP-Server-ClientUITests";
+			sourceTree = "<group>";
+		};
+		F35BFC521EBA0AE400E73A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F35BFC531EBA0AE400E73A81 /* AppKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +237,7 @@
 		F35BFBD01EB9FC8400E73A81 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TD;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Đặng Văn Trường";
 				TargetAttributes = {
@@ -276,8 +310,11 @@
 			files = (
 				F35BFBE61EB9FC8400E73A81 /* Document.m in Sources */,
 				F35BFBE31EB9FC8400E73A81 /* ViewController.m in Sources */,
+				F35BFC571EBA0BA700E73A81 /* TDServerThread.m in Sources */,
 				F35BFBE01EB9FC8400E73A81 /* main.m in Sources */,
+				F35BFC5C1EBA0BE200E73A81 /* TDClientThread.m in Sources */,
 				F35BFBDD1EB9FC8400E73A81 /* AppDelegate.m in Sources */,
+				F35BFC4F1EB9FEB100E73A81 /* TDHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35BFC501EB9FEB100E73A81 /* TDHandler.m in Sources */,
 				F35BFBF61EB9FC8400E73A81 /* TCP_Server_ClientTests.m in Sources */,
+				F35BFC5D1EBA0BE200E73A81 /* TDClientThread.m in Sources */,
+				F35BFC581EBA0BA700E73A81 /* TDServerThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35BFC511EB9FEB100E73A81 /* TDHandler.m in Sources */,
 				F35BFC011EB9FC8400E73A81 /* TCP_Server_ClientUITests.m in Sources */,
+				F35BFC5E1EBA0BE200E73A81 /* TDClientThread.m in Sources */,
+				F35BFC591EBA0BA700E73A81 /* TDServerThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +549,7 @@
 				F35BFC071EB9FC8400E73A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35BFC081EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +558,7 @@
 				F35BFC0A1EB9FC8400E73A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35BFC0B1EB9FC8400E73A81 /* Build configuration list for PBXNativeTarget "TCP-Server-ClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +567,7 @@
 				F35BFC0D1EB9FC8400E73A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
