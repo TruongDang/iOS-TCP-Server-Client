@@ -10,19 +10,31 @@
 
 @implementation TDHandler
 
-- (IBAction)startServerClicked:(id)sender {
+- (IBAction)startServerClicked:(NSButton *)sender {
+    objServerThread = [[TDServerThread alloc]init];
+    [objServerThread initializeServer:dataRecevedText];
+    [objServerThread start];
+    
 }
 
-- (IBAction)stopServerClicked:(id)sender {
+- (IBAction)stopServerClicked:(NSButton *)sender {
+    [objServerThread stopServer];
 }
 
-- (IBAction)ConnectToServerClicked:(id)sender {
+- (IBAction)ConnectToServerClicked:(NSButton *)sender {
+    objClientThread = [[TDClientThread alloc]init];
+    [objClientThread initializeClient];
+    [objClientThread start];
+    
 }
 
-- (IBAction)DisconnectFromServerClicked:(id)sender {
+- (IBAction)DisconnectFromServerClicked:(NSButton *)sender {
+    [objClientThread disconnectFromServer];
 }
 
-- (IBAction)sendDataClicked:(id)sender {
+- (IBAction)sendDataClicked:(NSButton *)sender {
+    [objClientThread sendTCPDataPacket:[[dataSendText stringValue] UTF8String]];
+    
 }
 
 @end

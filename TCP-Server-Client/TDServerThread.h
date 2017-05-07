@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#import <Cocoa/Cocoa.h>
 
-@interface TDServerThread : NSThread
+@interface TDServerThread : NSThread {
+    CFSocketRef objServer;
+}
+
+-(void)initializeServer:(NSTextField *) textField;
+
 -(void)main;
+
+-(void)stopServer;
 @end

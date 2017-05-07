@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AppKit/AppKit.h>
+#import <Cocoa/Cocoa.h>
+#import "TDClientThread.h"
+#import "TDServerThread.h"
 @interface TDHandler : NSObject{
-    
+    TDServerThread *objServerThread;
+    TDClientThread *objClientThread;
     __weak IBOutlet NSTextField *dataSendText;
     __weak IBOutlet NSTextField *dataRecevedText;
 
